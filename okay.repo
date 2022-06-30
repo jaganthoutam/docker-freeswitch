@@ -1,0 +1,15 @@
+[okay]
+name=Extra OKay Packages for Enterprise Linux - $basearch
+baseurl=http://repo.okay.com.mx/centos/$releasever/$basearch/release
+failovermethod=priority
+enabled=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-OKAY
+
+[okay-debuginfo]
+name=Extra OKay Packages for Enterprise Linux - $basearch - Debug
+baseurl=http://repo.okay.com.mx/centos/$releasever/$basearch/debug
+failovermethod=priority
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-OKAY
+gpgcheck=1
